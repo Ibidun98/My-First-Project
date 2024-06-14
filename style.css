@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0rem;
     box-sizing: border-box;
     overflow-x: hidden;
 }
 
-.container{
+.container {
     width: 100%;
 }
 
-.headerHero{
+.headerHero {
     background-image: url(./Images/heroBack.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
+
 }
 
-nav ul{
+nav ul {
     display: flex;
     gap: 2rem;
 }
 
-li{
+li {
     list-style: none;
     color: white;
     font-family: Montserrat;
 }
 
 
-header{
+header {
     display: flex;
     justify-content: space-between;
     width: 90%;
@@ -38,60 +39,60 @@ header{
     align-items: center;
 }
 
-.btn button{
+.btn button {
     background-color: #1BC786;
-    font-family:Montserrat;
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.86px;
     border: none;
-    padding: .5rem 1.5rem ;
+    padding: .5rem 1.5rem;
     border-radius: 50px;
     cursor: pointer;
     color: white;
     font-family: Montserrat;
 }
 
-.hero{
+.hero {
     display: flex;
     justify-content: space-between;
     width: 90%;
     margin: auto;
 }
 
-.heroText h2{
-font-family: Montserrat;
-font-size: 40px;
-font-weight: 900;
-line-height: 65.57px;
-color: white;
+.heroText h2 {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 65.57px;
+    color: white;
 }
 
-.heroText p{
-    font-family:Montserrat;
-font-size: 16px;
-font-weight: 400;
-line-height: 24.59px;
-color: #fff;
-padding: .5rem 0;
+.heroText p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+    padding: .5rem 0;
 }
 
-.heroImage img{
+.heroImage img {
     width: 100%;
-    margin-top:6rem;
+    margin-top: 6rem;
 }
 
-.heroText{
+.heroText {
     width: 40%;
-    margin-top: 8rem; 
+    margin-top: 8rem;
 
 }
 
-.heroImage{
+.heroImage {
     width: 40%;
 }
 
-.heroBtn button{
+.heroBtn button {
     font-family: Montserrat;
     font-size: 16px;
     border: 1px solid white;
@@ -100,77 +101,77 @@ padding: .5rem 0;
     cursor: pointer;
     background: none;
     color: #fff;
-    margin-right:1.1rem;
+    margin-right: 1.1rem;
 }
 
-.heroBtn button:hover{
+.heroBtn button:hover {
     background: #fff;
     color: blue;
 }
 
-.heroBtn{
+.heroBtn {
     margin-bottom: 2rem;
 }
 
-.heroForm{
+.heroForm {
     width: 100%;
 }
 
-.heroForm Input{
+.heroForm Input {
     width: 70%;
     padding: .7rem;
     border: none;
     border-radius: 50px 0px 0px 50px;
 }
 
-.heroForm button{
+.heroForm button {
     width: 20%;
     padding: .7rem;
-    background:  #1BC786;
+    background: #1BC786;
     color: #fff;
     cursor: pointer;
-    border:#1BC786 ;
+    border: #1BC786;
     margin-left: -.3rem;
     border-radius: 0px 50px 50px 0px;
 }
 
-.innercontainer{
+.innercontainer {
     width: 80%;
     margin: auto;
 }
 
-.affiliation{
+.affiliation {
     text-align: center;
     margin-top: 3rem;
 }
 
-.topAffiliate h2{
-font-family: Montserrat;
-font-size: 36px;
-/* font-weight: 900; */
-line-height: 49.18px;
-color: #043CAA;
+.topAffiliate h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    /* font-weight: 900; */
+    line-height: 49.18px;
+    color: #043CAA;
 }
 
-.lines{
+.lines {
     display: flex;
     width: 10%;
     margin: auto;
 }
 
-.blue{
+.blue {
     width: 45.5px;
-    border:2px solid #043CAA;
+    border: 2px solid #043CAA;
     border-radius: 50px 0px 0px 50px;
 }
 
-.green{
+.green {
     width: 45.5px;
-    border:2px solid#1BC786  ;
+    border: 2px solid#1BC786;
     border-radius: 0px 50px 50px 0px;
 }
 
-.affiliateImages{
+.affiliateImages {
     display: flex;
     gap: 5rem;
     width: 40%;
@@ -179,86 +180,45 @@ color: #043CAA;
     margin-bottom: 3rem;
 }
 
-.topBenefits h2{
-font-family: Montserrat;
-font-size: 36px;
-/* font-weight: 900; */
-line-height: 49.18px;
-color: #043CAA;
-text-align: center;
+.topBenefits h2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    /* font-weight: 900; */
+    line-height: 49.18px;
+    color: #043CAA;
+    text-align: center;
 }
 
-.medicine{
+.medicine {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.option{
-     display: flex; 
-     align-items: center;
-     gap: .7rem;
-     margin-top:1rem ;
-}
-
-.optionText{
- font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 24.59px;
-}
-
-.medicineText h5{
-font-family: Montserrat;
-font-size: 24px;
-line-height: 32.78px;
-color:#043CAA ;
-width: 60%;
-padding-bottom: 1rem;
-}
-
-.medicineText button{
- font-family: Montserrat;
-font-size: 18px;
-font-weight: 500;
-color: #1BC768;
-padding: 1rem 2rem;
-border: 1px solid #1BC768;
-background: transparent;
-border-radius: 50px;
-cursor: pointer;
-margin-top: 2rem;
-}
-
-.medicineText button:hover{
-    background: #1BC768;
-    color: #fff;
-}
-
-.doorstep{
+.option {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
 }
 
-.doorstepText h5{
-font-family: Montserrat;
-font-size: 24px;
-line-height: 32.78px;
-color:#043CAA ;
-width: 60%;
-padding-bottom: 1rem;
-}
-    
-.doorText{
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 24.59px;
-text-align: left;
+.optionText {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
 }
 
-.doorstep button{
+.medicineText h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: #043CAA;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+.medicineText button {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
@@ -271,49 +231,35 @@ text-align: left;
     margin-top: 2rem;
 }
 
-.door{
-    display: flex;
-    align-items: center;
-    gap: .7rem;
-    margin-top: 1rem;
-}
-
-.doorstep button:hover{
+.medicineText button:hover {
     background: #1BC768;
     color: #fff;
 }
 
-.set{
+.doorstep {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}  
-
-.setupText h5{
-font-family: Montserrat;
-font-size: 24px;
-line-height: 32.78px;
-color:#043CAA ;
-width: 60%;
-padding-bottom: 1rem;
-} 
-
-.setupText{
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 400;
-line-height: 24.59px;
-text-align: left;
 }
 
-.setup{
-    display: flex;
-    align-items: center;
-    gap: .7rem;
-    margin-top: 1rem;
+.doorstepText h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: #043CAA;
+    width: 60%;
+    padding-bottom: 1rem;
 }
 
-.set button{
+.doorText {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+}
+
+.doorstep button {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
@@ -326,25 +272,80 @@ text-align: left;
     margin-top: 2rem;
 }
 
-.set button:hover{
+.door {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.doorstep button:hover {
     background: #1BC768;
     color: #fff;
 }
 
-.client{
+.set {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setupText h5 {
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32.78px;
+    color: #043CAA;
+    width: 60%;
+    padding-bottom: 1rem;
+}
+
+.setupText {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    text-align: left;
+}
+
+.setup {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.set button {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    color: #1BC768;
+    padding: 1rem 2rem;
+    border: 1px solid #1BC768;
+    background: transparent;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.set button:hover {
+    background: #1BC768;
+    color: #fff;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
 }
 
-.line{
+.line {
     display: flex;
     width: 40%;
     margin: auto;
 }
 
-.clientText h2{
+.clientText h2 {
     font-family: Montserrat;
     font-size: 36px;
     line-height: 49.18px;
@@ -352,112 +353,160 @@ text-align: left;
 }
 
 
-.clientText p{
-font-family:Montserrat;
-font-size: 18px;
-line-height: 32.4px;
-padding: 1rem 0;
-width:65%;
-color: #7A7A7A;
+.clientText p {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 32.4px;
+    padding: 1rem 0;
+    width: 65%;
+    color: #7A7A7A;
 }
 
 
-.clientText h5{
+.clientText h5 {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     line-height: 49.18px;
-    color: #043CAA; 
+    color: #043CAA;
     padding-bottom: 2rem;
 }
 
-.clientImage img{
+.clientImage img {
     width: 100%;
 }
 
-.clientImage{
+.clientImage {
     width: 40%;
 }
 
-.clientText{
+.clientText {
     width: 50%;
 }
 
-footer{
+footer {
     background: #043CAA;
+    margin-top: 5rem;
 }
 
-.footContainer{
+.footContainer {
     width: 80%;
     margin: auto;
-    padding: 2rem 0;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    
 }
 
-.signUp{
+.signUp {
     display: flex;
     justify-content: space-between;
 }
 
-.signUpText h3{
-font-family: Montserrat;
-font-size: 24px;
-font-weight: 400;
-line-height: 32.78px;
-color: #fff;
-padding-bottom: 1rem;
+.signUpText h3 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.78px;
+    color: #fff;
+    padding-bottom: 1rem;
 }
 
-.signUpText p{
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 200;
-line-height: 24.59px;
-color: white;
+.signUpText p {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24.59px;
+    color: white;
 }
 
-.signUpInput Input{
+.signUpInput Input {
     padding: .7rem;
-    border:none;
+    border: none;
     border-radius: 50px 0px 0px 50px;
     width: 70%;
     margin-top: 1rem;
 }
 
-.signUpInput button{
+.signUpInput button {
     padding: .7rem;
     background: #1BC768;
     color: white;
     cursor: pointer;
-    border: #1BC768 ;
+    border: #1BC768;
     margin-left: -.3rem;
     border-radius: 0px 50px 50px 0px;
     width: 30%;
     padding-top: 0.6rem;
-    font-family: Montserrat ;
+    font-family: Montserrat;
 }
 
-.signUpInput label{
+.signUpInput label {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: white;
+
+}
+
+.signUpText {
+    width: 40%;
+}
+
+.signUpInput {
+    width: 40%;
+}
+
+.footContact {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 5rem;
+}
+
+.serviceSide {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.logoSide {
+    width: 40%;
+}
+
+.logoSide p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #fff;
+    width: 50%;
+}
+
+.serviceSide h4 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.78px;
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+.serviceSide li{
  font-family:  Montserrat;
-font-size: 18px;
+font-size: 16px;
 font-weight: 400;
-line-height: 24.59px;
+line-height: 32.78px;
 color: white;
-
-}
-.signUpText{
-    width: 40%;
+padding-bottom: 0.7rem;
 }
 
-.signUpInput{
-    width: 40%;
+.copyright{
+ font-family: Montserrat;
+font-size: 14px;
+font-weight: 400;
+line-height: 37.78px;
+color: white;
+padding-top: 2rem;
+text-align:center  ;
 }
-
-
-
-
-
-
-
-
-    
-
