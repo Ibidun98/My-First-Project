@@ -173,7 +173,7 @@ header {
 
 .affiliateImages {
     display: flex;
-    gap: 5rem;
+    gap: 3rem;
     width: 40%;
     margin: auto;
     margin-top: 3rem;
