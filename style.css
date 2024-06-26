@@ -96,7 +96,7 @@ header {
     font-family: Montserrat;
     font-size: 16px;
     border: 1px solid white;
-    padding: .5rem 2rem;
+    padding: .5rem 1.5rem;
     border-radius: 50px;
     cursor: pointer;
     background: none;
@@ -180,6 +180,19 @@ header {
     margin-bottom: 3rem;
 }
 
+.juhel img{
+width: 100%;
+}
+
+.gsk img{
+    width: 100%;
+}
+
+.emzor img{
+    width: 100%;
+}
+
+
 .topBenefits h2 {
     font-family: Montserrat;
     font-size: 36px;
@@ -207,6 +220,10 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
+}
+
+.medicineImage img{
+    width: 100%;
 }
 
 .medicineText h5 {
@@ -251,6 +268,10 @@ header {
     padding-bottom: 1rem;
 }
 
+.doorImage{
+    width:6%;
+}
+
 .doorText {
     font-family: Montserrat;
     font-size: 18px;
@@ -270,6 +291,10 @@ header {
     border-radius: 50px;
     cursor: pointer;
     margin-top: 2rem;
+}
+
+.doorstepImage img{
+    width: 70%;
 }
 
 .door {
@@ -331,6 +356,19 @@ header {
     background: #1BC768;
     color: #fff;
 }
+
+.clientImage{
+    width: 50%;
+}
+
+.clientImage img{
+    width: 100%;
+}
+
+
+/* .setupImage img{
+    width: 100%;
+} */
 
 .client {
     display: flex;
@@ -429,6 +467,7 @@ footer {
 
 .signUpInput button {
     padding: .7rem;
+    /* height: 40px; */
     background: #1BC768;
     color: white;
     cursor: pointer;
@@ -510,3 +549,533 @@ color: white;
 padding-top: 2rem;
 text-align:center  ;
 }
+
+
+
+
+@media screen and (max-width:1024px){
+    .heroText h2 {
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 55.57px;
+    }
+    
+    .heroText p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.59px;
+}
+
+.heroText {
+    width: 50%;
+    margin-top: 8rem;
+}
+
+.affiliateImages {
+    
+    gap: 3rem;
+    width: 60%;
+}
+
+.medicineText h5 {
+    width: 70%;
+}
+
+.optionText {
+    font-size: 16px;
+}
+
+.doorstepText h5 {
+    width: 85%;
+}
+
+.doorstepImage{
+    width: 75%;
+}
+
+.doorText {
+    font-size: 16px;
+    width: 100%;
+}
+
+
+.clientText h2{
+    font-size: 30px;
+}
+
+.signUpInput{
+    width: 45%;
+}
+
+.serviceSide{
+    gap: 3rem;
+}
+
+.setupText h5{
+    width: 70%;
+}
+
+.setupText{
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:768px){
+    nav{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .heroText h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 45.57px;
+    }
+    
+    .heroText p {
+        font-size: 14px;
+        font-weight: 400;
+}
+
+.heroText{
+    width: 60%;
+    margin-top: 6rem;
+}
+
+.heroForm Input {
+    width: 60%;
+}
+
+.heroImage img{
+    width: 115%;
+}
+
+.medicineText h5 {
+    width: 85%;
+    font-size: 20px;
+}
+
+.optionText {
+    font-size: 11px;
+}
+
+.option {
+    width: 100%;
+    gap: .7rem;
+
+}
+
+.medicineText button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: .7rem 1rem;
+}
+
+.clientText h2 {
+    font-size: 23px;
+    line-height: 39.18px;
+    margin-bottom: 1rem;
+}
+
+
+.clientText p {
+    font-size: 14px;
+    width: 90%;
+    padding: 1rem 0.5rem 0;
+}
+
+.clientText h5{
+    font-size: 14px;
+    padding-bottom: 1rem;
+}
+
+.blue {
+    width: 35px;
+}
+
+.green {
+    width: 35px;
+}
+
+.signUpInput Input {
+    width: 63%;
+    padding: .6rem;
+}
+
+.signUpInput button {
+  width: 37%;
+  font-size: 12px;
+}
+
+.signUpText p {
+    font-size: 14px;
+}
+  
+.logoSide p {
+    font-size: 14px;
+    width: 60%;
+}
+
+.serviceSide h4 {
+    font-size: 14px;
+}
+
+.serviceSide li{
+font-size: 14px;
+}
+
+.serviceSide{
+    gap: 2rem;
+}
+
+.signUpText h3{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.doorstepText h5 {
+    width: 85%;
+    font-size: 20px;
+}
+
+.doorstepImage{
+    width: 75%;
+}
+
+.doorText p {
+    font-size: 12px;
+    width: 100%;
+}
+
+.doorstepImage img{
+    width: 75%;
+}
+
+.doorstep button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: .7rem 1rem;
+}
+
+.setupText h5 {
+    width: 85%;
+    font-size: 20px;
+}
+
+.setupText p {
+    font-size: 11px;
+}
+
+.setupImage img{
+    width: 95%;
+}
+
+.setupText button {
+    font-size: 14px;
+    font-weight: 400;
+    padding: .7rem 1rem;
+}
+}
+
+@media screen and (max-width:425px){
+    .hero{
+        display: block;
+        width: 90%;
+        margin: auto;
+    }
+
+    .heroText {
+        width: 100%;
+        margin-top: 5rem;
+    
+    }
+    
+    .heroImage {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    
+    .heroBtn button {  
+        font-size: 16px;
+        padding: .5rem 1.5rem;
+        border-radius: 50px;
+        margin-right: .4rem;
+    }
+    
+    
+    .heroBtn {
+        margin-bottom: 2rem;
+    }
+    
+    .heroForm {
+        width: 100%;
+    }
+    
+    .heroForm Input {
+        width: 70%;
+        padding: .7rem;
+    }
+    
+    .heroForm button {
+        width: 25%;
+    }
+
+    
+.blue {
+    width: 45.5px;
+    border: 2px solid #043CAA;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.green {
+    width: 45.5px;
+    border: 2px solid#1BC786;
+    border-radius: 0px 50px 50px 0px;
+}
+
+.affiliateImages {
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.lines {
+    display: flex;
+    width: 20%;
+    margin: auto;
+}
+
+.topAffiliate h2 {
+    font-size: 30px;
+}
+
+.topBenefits h2 {
+    font-size: 30px;
+}
+
+.medicine {
+   flex-direction: column;
+   margin-top: 2rem;
+}
+
+
+.optionText {
+    font-size: 14px;
+}
+
+.medicineImage img{
+    width: 100%;
+}
+
+.medicineText h5 {
+    font-size: 20px;
+    width: 70%;
+}
+
+
+
+.doorstepText h5 {
+    font-size: 20px;
+    width: 60%;
+}
+
+.doorImage{
+    width:7%;
+    margin-top: 1rem;
+}
+
+
+.doorstepText p {
+    font-size: 14px;
+    margin-top: .7rem;
+}
+
+
+
+.doorstep button { 
+    font-size: 14px;
+    padding: .7rem .9rem;
+    margin-bottom: 2rem;
+}
+
+.doorstepImage img{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.doorstep{
+    flex-direction: column-reverse;
+}
+
+
+.set {
+    flex-direction: column;
+}
+
+.setupText h5 {
+    font-size: 20px;
+    width: 60%;
+}
+
+.setupText p {
+    font-size: 14px;
+}
+
+.setup {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-top: 1rem;
+}
+
+.set button {
+    width: 50%;
+    padding: .7rem .9rem;
+}
+
+
+.client {
+    flex-direction: column;
+}
+
+.line {
+    display: flex;
+    width: 40%;
+    margin: auto;
+}
+
+.clientText h2 {
+    font-size: 30px;
+    line-height: 49.18px;
+    margin-bottom: .5rem;
+}
+
+
+.clientText p {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 32.4px;
+    padding: 1rem 0;
+    width: 65%;
+    color: #7A7A7A;
+}
+
+
+.clientText h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 49.18px;
+    color: #043CAA;
+    padding-bottom: 2rem;
+}
+
+.clientImage img {
+    width: 100%;
+}
+
+.clientImage {
+    width: 100%;
+}
+
+.clientText {
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.signUp{
+    flex-direction:column;
+}
+
+.signUpText{
+    width:100%;
+}
+
+.signUpInput{
+    width:100%;
+}
+
+.signUpInput button{
+    width:35%;
+    padding-bottom: .61rem;
+    
+}
+
+.signUpInput input{
+    border: none;
+}
+
+.footContact{
+    flex-direction:column;
+}
+
+.serviceSide{
+    flex-direction:column;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.logoSide{
+    width:100%;
+}
+
+.logoSide p{
+    width:100%;
+}
+
+.doorstep{
+    flex-direction:column-reverse;
+    margin-top:2rem;
+}
+
+.doorstepText h5{
+    font-size: 20px;
+    width:70%;
+    padding-bottom: 1rem;
+}
+
+.doorstepImage img{
+    width:100%;
+    padding-top:2rem;
+}
+
+.doorText p{
+    font-size:13px;
+    width:100%;
+}
+
+.profile{
+    flex-direction:column;
+    width:100%;
+}
+
+.profileText{
+    width:100%;
+}
+
+.profileText h5{
+    font-size: 20px;
+    width:60%;
+    padding-bottom: 1rem;
+}
+
+.refillText p{
+    font-size:13px;
+    width:100%;
+}
+
+.refillImage img{
+    width:100%;
+}
+
+}
+
