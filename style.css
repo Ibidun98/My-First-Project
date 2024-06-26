@@ -1076,6 +1076,48 @@ font-size: 14px;
 .refillImage img{
     width:100%;
 }
-
 }
 
+@media screen and (max-width:375px){
+    .heroBtn button{
+        font-size: 16px;
+        padding:0.5rem 1rem ;
+        border-radius: 50px;
+        margin-right: .5rem;
+    }
+
+    .heroText h2{
+        font-size: 20px;
+        line-height: 39.5px;
+    }
+
+    .clientText h2{
+        font-size: 25px;
+        line-height: 39.18px;
+        margin-bottom: 0.5rem;
+    }
+
+    .optionText p{
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .setupText h5{
+        font-size: 20px;
+        width: 75%;
+    }
+
+    .setupText p {
+        font-size: 12px;
+    }
+
+    .setupText button {
+        font-size: 14px;
+        font-weight: 400;
+        width: 60%;
+    }
+
+    .signUpInput {
+        padding-top: 1rem;
+    }
+}
